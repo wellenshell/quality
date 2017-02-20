@@ -1,0 +1,886 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6040F84F7DD78E3B33F2110B /* libPods-LuxShareApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE7B6FB68F6397D5BDA14FEC /* libPods-LuxShareApp.a */; };
+		9928F2A71E4BEF1700FEA74C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9928F2A61E4BEF1700FEA74C /* main.m */; };
+		9928F2AA1E4BEF1700FEA74C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9928F2A91E4BEF1700FEA74C /* AppDelegate.m */; };
+		9928F2AC1E4BEF1700FEA74C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9928F2AB1E4BEF1700FEA74C /* Assets.xcassets */; };
+		9928F2AF1E4BEF1700FEA74C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9928F2AD1E4BEF1700FEA74C /* LaunchScreen.storyboard */; };
+		9928F2BA1E4BEF1800FEA74C /* LuxShareAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9928F2B91E4BEF1800FEA74C /* LuxShareAppUITests.m */; };
+		9928F2C61E4BEF4A00FEA74C /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9928F2C51E4BEF4A00FEA74C /* LoginViewController.m */; };
+		9928F2C91E4BEF5500FEA74C /* MianViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9928F2C81E4BEF5500FEA74C /* MianViewController.m */; };
+		9928F2F21E4BF03F00FEA74C /* IQNSArray+Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = 9928F2CF1E4BF03F00FEA74C /* IQNSArray+Sort.m */; };
+		9928F2F31E4BF03F00FEA74C /* IQUIScrollView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9928F2D11E4BF03F00FEA74C /* IQUIScrollView+Additions.m */; };
+		9928F2F41E4BF03F00FEA74C /* IQUITextFieldView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9928F2D31E4BF03F00FEA74C /* IQUITextFieldView+Additions.m */; };
+		9928F2F51E4BF03F00FEA74C /* IQUIView+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9928F2D51E4BF03F00FEA74C /* IQUIView+Hierarchy.m */; };
+		9928F2F61E4BF03F00FEA74C /* IQUIViewController+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9928F2D71E4BF03F00FEA74C /* IQUIViewController+Additions.m */; };
+		9928F2F71E4BF03F00FEA74C /* IQUIWindow+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9928F2D91E4BF03F00FEA74C /* IQUIWindow+Hierarchy.m */; };
+		9928F2F81E4BF03F00FEA74C /* IQKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9928F2DE1E4BF03F00FEA74C /* IQKeyboardManager.m */; };
+		9928F2F91E4BF03F00FEA74C /* IQKeyboardReturnKeyHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 9928F2E01E4BF03F00FEA74C /* IQKeyboardReturnKeyHandler.m */; };
+		9928F2FA1E4BF03F00FEA74C /* IQTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9928F2E31E4BF03F00FEA74C /* IQTextView.m */; };
+		9928F2FB1E4BF03F00FEA74C /* IQBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9928F2E61E4BF03F00FEA74C /* IQBarButtonItem.m */; };
+		9928F2FC1E4BF03F00FEA74C /* IQTitleBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9928F2E81E4BF03F00FEA74C /* IQTitleBarButtonItem.m */; };
+		9928F2FD1E4BF03F00FEA74C /* IQToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9928F2EA1E4BF03F00FEA74C /* IQToolbar.m */; };
+		9928F2FE1E4BF03F00FEA74C /* IQUIView+IQKeyboardToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9928F2EC1E4BF03F00FEA74C /* IQUIView+IQKeyboardToolbar.m */; };
+		9928F2FF1E4BF03F00FEA74C /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9928F2EF1E4BF03F00FEA74C /* IQKeyboardManager.bundle */; };
+		9928F3001E4BF03F00FEA74C /* LICENSE.md in Sources */ = {isa = PBXBuildFile; fileRef = 9928F2F01E4BF03F00FEA74C /* LICENSE.md */; };
+		9928F3011E4BF03F00FEA74C /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 9928F2F11E4BF03F00FEA74C /* README.md */; };
+		9928F3051E4BF1EC00FEA74C /* Public.m in Sources */ = {isa = PBXBuildFile; fileRef = 9928F3041E4BF1EC00FEA74C /* Public.m */; };
+		9928F30E1E4BF56800FEA74C /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 9928F3071E4BF56800FEA74C /* Base64.m */; };
+		9928F30F1E4BF56800FEA74C /* KPromptBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 9928F3091E4BF56800FEA74C /* KPromptBox.m */; };
+		9928F3101E4BF56800FEA74C /* LXAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9928F30B1E4BF56800FEA74C /* LXAlertView.m */; };
+		9928F3111E4BF56800FEA74C /* UILabel+LXAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 9928F30D1E4BF56800FEA74C /* UILabel+LXAdd.m */; };
+		9928F3141E4BF5DC00FEA74C /* HttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9928F3131E4BF5DC00FEA74C /* HttpRequest.m */; };
+		9928F3191E4C035A00FEA74C /* jpush-ios-2.2.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9928F3171E4C035A00FEA74C /* jpush-ios-2.2.0.a */; };
+		9928F31B1E4C037000FEA74C /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9928F31A1E4C037000FEA74C /* CFNetwork.framework */; };
+		9928F31D1E4C037700FEA74C /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9928F31C1E4C037700FEA74C /* CoreFoundation.framework */; };
+		9928F31F1E4C037D00FEA74C /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9928F31E1E4C037D00FEA74C /* CoreTelephony.framework */; };
+		9928F3211E4C038400FEA74C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9928F3201E4C038400FEA74C /* SystemConfiguration.framework */; };
+		9928F3231E4C038D00FEA74C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9928F3221E4C038D00FEA74C /* CoreGraphics.framework */; };
+		9928F3251E4C039600FEA74C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9928F3241E4C039600FEA74C /* Foundation.framework */; };
+		9928F3271E4C039C00FEA74C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9928F3261E4C039C00FEA74C /* UIKit.framework */; };
+		9928F3291E4C03A300FEA74C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9928F3281E4C03A300FEA74C /* Security.framework */; };
+		9928F32B1E4C03AC00FEA74C /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9928F32A1E4C03AC00FEA74C /* libz.tbd */; };
+		9928F32D1E4C03C300FEA74C /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9928F32C1E4C03C300FEA74C /* UserNotifications.framework */; };
+		9928F32F1E4C03CC00FEA74C /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9928F32E1E4C03CC00FEA74C /* libresolv.tbd */; };
+		99E1C58E1E4D44D9009D354E /* ShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E1C58D1E4D44D9009D354E /* ShowViewController.m */; };
+		99E1C5921E4D45E5009D354E /* MainModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E1C5911E4D45E5009D354E /* MainModel.m */; };
+		99E1C5D41E4D5FF4009D354E /* cangkubeiliao_focus.png in Resources */ = {isa = PBXBuildFile; fileRef = 99E1C5C51E4D5FF4009D354E /* cangkubeiliao_focus.png */; };
+		99E1C5D51E4D5FF4009D354E /* cangkubeiliao.png in Resources */ = {isa = PBXBuildFile; fileRef = 99E1C5C61E4D5FF4009D354E /* cangkubeiliao.png */; };
+		99E1C5D61E4D5FF4009D354E /* chengpinruku_focus.png in Resources */ = {isa = PBXBuildFile; fileRef = 99E1C5C71E4D5FF4009D354E /* chengpinruku_focus.png */; };
+		99E1C5D71E4D5FF4009D354E /* chengpinruku.png in Resources */ = {isa = PBXBuildFile; fileRef = 99E1C5C81E4D5FF4009D354E /* chengpinruku.png */; };
+		99E1C5D81E4D5FF4009D354E /* enter_focus.png in Resources */ = {isa = PBXBuildFile; fileRef = 99E1C5C91E4D5FF4009D354E /* enter_focus.png */; };
+		99E1C5D91E4D5FF4009D354E /* enter_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 99E1C5CA1E4D5FF4009D354E /* enter_normal.png */; };
+		99E1C5DA1E4D5FF4009D354E /* luxshare_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 99E1C5CB1E4D5FF4009D354E /* luxshare_logo.png */; };
+		99E1C5DB1E4D5FF4009D354E /* password.png in Resources */ = {isa = PBXBuildFile; fileRef = 99E1C5CC1E4D5FF4009D354E /* password.png */; };
+		99E1C5DC1E4D5FF4009D354E /* pinzhibaobiao_focus.png in Resources */ = {isa = PBXBuildFile; fileRef = 99E1C5CD1E4D5FF4009D354E /* pinzhibaobiao_focus.png */; };
+		99E1C5DD1E4D5FF4009D354E /* pinzhibaobiao.png in Resources */ = {isa = PBXBuildFile; fileRef = 99E1C5CE1E4D5FF4009D354E /* pinzhibaobiao.png */; };
+		99E1C5DE1E4D5FF4009D354E /* QCjianyan_focus.png in Resources */ = {isa = PBXBuildFile; fileRef = 99E1C5CF1E4D5FF4009D354E /* QCjianyan_focus.png */; };
+		99E1C5DF1E4D5FF4009D354E /* QCjianyan.png in Resources */ = {isa = PBXBuildFile; fileRef = 99E1C5D01E4D5FF4009D354E /* QCjianyan.png */; };
+		99E1C5E01E4D5FF4009D354E /* songliao_focus.png in Resources */ = {isa = PBXBuildFile; fileRef = 99E1C5D11E4D5FF4009D354E /* songliao_focus.png */; };
+		99E1C5E11E4D5FF4009D354E /* songliao.png in Resources */ = {isa = PBXBuildFile; fileRef = 99E1C5D21E4D5FF4009D354E /* songliao.png */; };
+		99E1C5E21E4D5FF4009D354E /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = 99E1C5D31E4D5FF4009D354E /* user.png */; };
+		99E1C5E41E4D66E5009D354E /* Wall_Luxshare-ICT_OL.png in Resources */ = {isa = PBXBuildFile; fileRef = 99E1C5E31E4D66E5009D354E /* Wall_Luxshare-ICT_OL.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9928F2B61E4BEF1800FEA74C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9928F29A1E4BEF1700FEA74C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9928F2A11E4BEF1700FEA74C;
+			remoteInfo = LuxShareApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A5BBC537ED0AAF807BD6BD5 /* Pods-LuxShareApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuxShareApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LuxShareApp/Pods-LuxShareApp.debug.xcconfig"; sourceTree = "<group>"; };
+		812C7CA729F68E6EF75283EA /* Pods-LuxShareApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuxShareApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-LuxShareApp/Pods-LuxShareApp.release.xcconfig"; sourceTree = "<group>"; };
+		9928F2A21E4BEF1700FEA74C /* LuxShareApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LuxShareApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9928F2A61E4BEF1700FEA74C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9928F2A81E4BEF1700FEA74C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9928F2A91E4BEF1700FEA74C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9928F2AB1E4BEF1700FEA74C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9928F2AE1E4BEF1700FEA74C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9928F2B01E4BEF1700FEA74C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9928F2B51E4BEF1800FEA74C /* LuxShareAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LuxShareAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9928F2B91E4BEF1800FEA74C /* LuxShareAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LuxShareAppUITests.m; sourceTree = "<group>"; };
+		9928F2BB1E4BEF1800FEA74C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9928F2C41E4BEF4A00FEA74C /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		9928F2C51E4BEF4A00FEA74C /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		9928F2C71E4BEF5500FEA74C /* MianViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MianViewController.h; sourceTree = "<group>"; };
+		9928F2C81E4BEF5500FEA74C /* MianViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MianViewController.m; sourceTree = "<group>"; };
+		9928F2CE1E4BF03F00FEA74C /* IQNSArray+Sort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQNSArray+Sort.h"; sourceTree = "<group>"; };
+		9928F2CF1E4BF03F00FEA74C /* IQNSArray+Sort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQNSArray+Sort.m"; sourceTree = "<group>"; };
+		9928F2D01E4BF03F00FEA74C /* IQUIScrollView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIScrollView+Additions.h"; sourceTree = "<group>"; };
+		9928F2D11E4BF03F00FEA74C /* IQUIScrollView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIScrollView+Additions.m"; sourceTree = "<group>"; };
+		9928F2D21E4BF03F00FEA74C /* IQUITextFieldView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUITextFieldView+Additions.h"; sourceTree = "<group>"; };
+		9928F2D31E4BF03F00FEA74C /* IQUITextFieldView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUITextFieldView+Additions.m"; sourceTree = "<group>"; };
+		9928F2D41E4BF03F00FEA74C /* IQUIView+Hierarchy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIView+Hierarchy.h"; sourceTree = "<group>"; };
+		9928F2D51E4BF03F00FEA74C /* IQUIView+Hierarchy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIView+Hierarchy.m"; sourceTree = "<group>"; };
+		9928F2D61E4BF03F00FEA74C /* IQUIViewController+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIViewController+Additions.h"; sourceTree = "<group>"; };
+		9928F2D71E4BF03F00FEA74C /* IQUIViewController+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIViewController+Additions.m"; sourceTree = "<group>"; };
+		9928F2D81E4BF03F00FEA74C /* IQUIWindow+Hierarchy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIWindow+Hierarchy.h"; sourceTree = "<group>"; };
+		9928F2D91E4BF03F00FEA74C /* IQUIWindow+Hierarchy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIWindow+Hierarchy.m"; sourceTree = "<group>"; };
+		9928F2DB1E4BF03F00FEA74C /* IQKeyboardManagerConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerConstants.h; sourceTree = "<group>"; };
+		9928F2DC1E4BF03F00FEA74C /* IQKeyboardManagerConstantsInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerConstantsInternal.h; sourceTree = "<group>"; };
+		9928F2DD1E4BF03F00FEA74C /* IQKeyboardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManager.h; sourceTree = "<group>"; };
+		9928F2DE1E4BF03F00FEA74C /* IQKeyboardManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQKeyboardManager.m; sourceTree = "<group>"; };
+		9928F2DF1E4BF03F00FEA74C /* IQKeyboardReturnKeyHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardReturnKeyHandler.h; sourceTree = "<group>"; };
+		9928F2E01E4BF03F00FEA74C /* IQKeyboardReturnKeyHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQKeyboardReturnKeyHandler.m; sourceTree = "<group>"; };
+		9928F2E21E4BF03F00FEA74C /* IQTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQTextView.h; sourceTree = "<group>"; };
+		9928F2E31E4BF03F00FEA74C /* IQTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQTextView.m; sourceTree = "<group>"; };
+		9928F2E51E4BF03F00FEA74C /* IQBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQBarButtonItem.h; sourceTree = "<group>"; };
+		9928F2E61E4BF03F00FEA74C /* IQBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQBarButtonItem.m; sourceTree = "<group>"; };
+		9928F2E71E4BF03F00FEA74C /* IQTitleBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQTitleBarButtonItem.h; sourceTree = "<group>"; };
+		9928F2E81E4BF03F00FEA74C /* IQTitleBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQTitleBarButtonItem.m; sourceTree = "<group>"; };
+		9928F2E91E4BF03F00FEA74C /* IQToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQToolbar.h; sourceTree = "<group>"; };
+		9928F2EA1E4BF03F00FEA74C /* IQToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQToolbar.m; sourceTree = "<group>"; };
+		9928F2EB1E4BF03F00FEA74C /* IQUIView+IQKeyboardToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIView+IQKeyboardToolbar.h"; sourceTree = "<group>"; };
+		9928F2EC1E4BF03F00FEA74C /* IQUIView+IQKeyboardToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIView+IQKeyboardToolbar.m"; sourceTree = "<group>"; };
+		9928F2ED1E4BF03F00FEA74C /* KeyboardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardManager.h; sourceTree = "<group>"; };
+		9928F2EF1E4BF03F00FEA74C /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IQKeyboardManager.bundle; sourceTree = "<group>"; };
+		9928F2F01E4BF03F00FEA74C /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
+		9928F2F11E4BF03F00FEA74C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9928F3021E4BF07300FEA74C /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		9928F3031E4BF1EC00FEA74C /* Public.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Public.h; path = Tools/Public.h; sourceTree = "<group>"; };
+		9928F3041E4BF1EC00FEA74C /* Public.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Public.m; path = Tools/Public.m; sourceTree = "<group>"; };
+		9928F3061E4BF56800FEA74C /* Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Base64.h; path = Tools/Base64.h; sourceTree = "<group>"; };
+		9928F3071E4BF56800FEA74C /* Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Base64.m; path = Tools/Base64.m; sourceTree = "<group>"; };
+		9928F3081E4BF56800FEA74C /* KPromptBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KPromptBox.h; path = Tools/KPromptBox.h; sourceTree = "<group>"; };
+		9928F3091E4BF56800FEA74C /* KPromptBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KPromptBox.m; path = Tools/KPromptBox.m; sourceTree = "<group>"; };
+		9928F30A1E4BF56800FEA74C /* LXAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LXAlertView.h; path = Tools/LXAlertView.h; sourceTree = "<group>"; };
+		9928F30B1E4BF56800FEA74C /* LXAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LXAlertView.m; path = Tools/LXAlertView.m; sourceTree = "<group>"; };
+		9928F30C1E4BF56800FEA74C /* UILabel+LXAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UILabel+LXAdd.h"; path = "Tools/UILabel+LXAdd.h"; sourceTree = "<group>"; };
+		9928F30D1E4BF56800FEA74C /* UILabel+LXAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UILabel+LXAdd.m"; path = "Tools/UILabel+LXAdd.m"; sourceTree = "<group>"; };
+		9928F3121E4BF5DC00FEA74C /* HttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpRequest.h; sourceTree = "<group>"; };
+		9928F3131E4BF5DC00FEA74C /* HttpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpRequest.m; sourceTree = "<group>"; };
+		9928F3171E4C035A00FEA74C /* jpush-ios-2.2.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jpush-ios-2.2.0.a"; sourceTree = "<group>"; };
+		9928F3181E4C035A00FEA74C /* JPUSHService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPUSHService.h; sourceTree = "<group>"; };
+		9928F31A1E4C037000FEA74C /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		9928F31C1E4C037700FEA74C /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		9928F31E1E4C037D00FEA74C /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		9928F3201E4C038400FEA74C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		9928F3221E4C038D00FEA74C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9928F3241E4C039600FEA74C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9928F3261E4C039C00FEA74C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9928F3281E4C03A300FEA74C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		9928F32A1E4C03AC00FEA74C /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		9928F32C1E4C03C300FEA74C /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		9928F32E1E4C03CC00FEA74C /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		9928F3301E4C03FB00FEA74C /* LuxShareApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LuxShareApp.entitlements; sourceTree = "<group>"; };
+		99E1C58C1E4D44D9009D354E /* ShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShowViewController.h; path = Views/ShowViewController.h; sourceTree = "<group>"; };
+		99E1C58D1E4D44D9009D354E /* ShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShowViewController.m; path = Views/ShowViewController.m; sourceTree = "<group>"; };
+		99E1C5901E4D45E5009D354E /* MainModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainModel.h; path = Models/MainModel.h; sourceTree = "<group>"; };
+		99E1C5911E4D45E5009D354E /* MainModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainModel.m; path = Models/MainModel.m; sourceTree = "<group>"; };
+		99E1C5C51E4D5FF4009D354E /* cangkubeiliao_focus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cangkubeiliao_focus.png; path = Images/cangkubeiliao_focus.png; sourceTree = "<group>"; };
+		99E1C5C61E4D5FF4009D354E /* cangkubeiliao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cangkubeiliao.png; path = Images/cangkubeiliao.png; sourceTree = "<group>"; };
+		99E1C5C71E4D5FF4009D354E /* chengpinruku_focus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chengpinruku_focus.png; path = Images/chengpinruku_focus.png; sourceTree = "<group>"; };
+		99E1C5C81E4D5FF4009D354E /* chengpinruku.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chengpinruku.png; path = Images/chengpinruku.png; sourceTree = "<group>"; };
+		99E1C5C91E4D5FF4009D354E /* enter_focus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = enter_focus.png; path = Images/enter_focus.png; sourceTree = "<group>"; };
+		99E1C5CA1E4D5FF4009D354E /* enter_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = enter_normal.png; path = Images/enter_normal.png; sourceTree = "<group>"; };
+		99E1C5CB1E4D5FF4009D354E /* luxshare_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = luxshare_logo.png; path = Images/luxshare_logo.png; sourceTree = "<group>"; };
+		99E1C5CC1E4D5FF4009D354E /* password.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = password.png; path = Images/password.png; sourceTree = "<group>"; };
+		99E1C5CD1E4D5FF4009D354E /* pinzhibaobiao_focus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pinzhibaobiao_focus.png; path = Images/pinzhibaobiao_focus.png; sourceTree = "<group>"; };
+		99E1C5CE1E4D5FF4009D354E /* pinzhibaobiao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pinzhibaobiao.png; path = Images/pinzhibaobiao.png; sourceTree = "<group>"; };
+		99E1C5CF1E4D5FF4009D354E /* QCjianyan_focus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = QCjianyan_focus.png; path = Images/QCjianyan_focus.png; sourceTree = "<group>"; };
+		99E1C5D01E4D5FF4009D354E /* QCjianyan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = QCjianyan.png; path = Images/QCjianyan.png; sourceTree = "<group>"; };
+		99E1C5D11E4D5FF4009D354E /* songliao_focus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = songliao_focus.png; path = Images/songliao_focus.png; sourceTree = "<group>"; };
+		99E1C5D21E4D5FF4009D354E /* songliao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = songliao.png; path = Images/songliao.png; sourceTree = "<group>"; };
+		99E1C5D31E4D5FF4009D354E /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = user.png; path = Images/user.png; sourceTree = "<group>"; };
+		99E1C5E31E4D66E5009D354E /* Wall_Luxshare-ICT_OL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Wall_Luxshare-ICT_OL.png"; path = "Images/Wall_Luxshare-ICT_OL.png"; sourceTree = "<group>"; };
+		CE7B6FB68F6397D5BDA14FEC /* libPods-LuxShareApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LuxShareApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9928F29F1E4BEF1700FEA74C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9928F32F1E4C03CC00FEA74C /* libresolv.tbd in Frameworks */,
+				9928F32D1E4C03C300FEA74C /* UserNotifications.framework in Frameworks */,
+				9928F32B1E4C03AC00FEA74C /* libz.tbd in Frameworks */,
+				9928F3291E4C03A300FEA74C /* Security.framework in Frameworks */,
+				9928F3271E4C039C00FEA74C /* UIKit.framework in Frameworks */,
+				9928F3251E4C039600FEA74C /* Foundation.framework in Frameworks */,
+				9928F3231E4C038D00FEA74C /* CoreGraphics.framework in Frameworks */,
+				9928F3211E4C038400FEA74C /* SystemConfiguration.framework in Frameworks */,
+				9928F31F1E4C037D00FEA74C /* CoreTelephony.framework in Frameworks */,
+				9928F31D1E4C037700FEA74C /* CoreFoundation.framework in Frameworks */,
+				9928F31B1E4C037000FEA74C /* CFNetwork.framework in Frameworks */,
+				6040F84F7DD78E3B33F2110B /* libPods-LuxShareApp.a in Frameworks */,
+				9928F3191E4C035A00FEA74C /* jpush-ios-2.2.0.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9928F2B21E4BEF1800FEA74C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58DBF5B37E3256107F4B7B74 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2A5BBC537ED0AAF807BD6BD5 /* Pods-LuxShareApp.debug.xcconfig */,
+				812C7CA729F68E6EF75283EA /* Pods-LuxShareApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8F7254D6E2AD4EF3C474184A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9928F32E1E4C03CC00FEA74C /* libresolv.tbd */,
+				9928F32C1E4C03C300FEA74C /* UserNotifications.framework */,
+				9928F32A1E4C03AC00FEA74C /* libz.tbd */,
+				9928F3281E4C03A300FEA74C /* Security.framework */,
+				9928F3261E4C039C00FEA74C /* UIKit.framework */,
+				9928F3241E4C039600FEA74C /* Foundation.framework */,
+				9928F3221E4C038D00FEA74C /* CoreGraphics.framework */,
+				9928F3201E4C038400FEA74C /* SystemConfiguration.framework */,
+				9928F31E1E4C037D00FEA74C /* CoreTelephony.framework */,
+				9928F31C1E4C037700FEA74C /* CoreFoundation.framework */,
+				9928F31A1E4C037000FEA74C /* CFNetwork.framework */,
+				CE7B6FB68F6397D5BDA14FEC /* libPods-LuxShareApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9928F2991E4BEF1700FEA74C = {
+			isa = PBXGroup;
+			children = (
+				9928F3021E4BF07300FEA74C /* Header.h */,
+				99E1C58F1E4D45AF009D354E /* Models */,
+				9928F3311E4C427C00FEA74C /* Views */,
+				9928F3151E4BFAE400FEA74C /* Images */,
+				9928F2CA1E4BEFC700FEA74C /* Tools */,
+				9928F2A41E4BEF1700FEA74C /* LuxShareApp */,
+				9928F2B81E4BEF1800FEA74C /* LuxShareAppUITests */,
+				9928F2A31E4BEF1700FEA74C /* Products */,
+				58DBF5B37E3256107F4B7B74 /* Pods */,
+				8F7254D6E2AD4EF3C474184A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9928F2A31E4BEF1700FEA74C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9928F2A21E4BEF1700FEA74C /* LuxShareApp.app */,
+				9928F2B51E4BEF1800FEA74C /* LuxShareAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9928F2A41E4BEF1700FEA74C /* LuxShareApp */ = {
+			isa = PBXGroup;
+			children = (
+				9928F3301E4C03FB00FEA74C /* LuxShareApp.entitlements */,
+				9928F3121E4BF5DC00FEA74C /* HttpRequest.h */,
+				9928F3131E4BF5DC00FEA74C /* HttpRequest.m */,
+				9928F2A81E4BEF1700FEA74C /* AppDelegate.h */,
+				9928F2A91E4BEF1700FEA74C /* AppDelegate.m */,
+				9928F2C41E4BEF4A00FEA74C /* LoginViewController.h */,
+				9928F2C51E4BEF4A00FEA74C /* LoginViewController.m */,
+				9928F2C71E4BEF5500FEA74C /* MianViewController.h */,
+				9928F2C81E4BEF5500FEA74C /* MianViewController.m */,
+				9928F2AB1E4BEF1700FEA74C /* Assets.xcassets */,
+				9928F2AD1E4BEF1700FEA74C /* LaunchScreen.storyboard */,
+				9928F2B01E4BEF1700FEA74C /* Info.plist */,
+				9928F2A51E4BEF1700FEA74C /* Supporting Files */,
+			);
+			path = LuxShareApp;
+			sourceTree = "<group>";
+		};
+		9928F2A51E4BEF1700FEA74C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9928F2A61E4BEF1700FEA74C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9928F2B81E4BEF1800FEA74C /* LuxShareAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9928F2B91E4BEF1800FEA74C /* LuxShareAppUITests.m */,
+				9928F2BB1E4BEF1800FEA74C /* Info.plist */,
+			);
+			path = LuxShareAppUITests;
+			sourceTree = "<group>";
+		};
+		9928F2CA1E4BEFC700FEA74C /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				9928F3161E4C035A00FEA74C /* Lib */,
+				9928F3061E4BF56800FEA74C /* Base64.h */,
+				9928F3071E4BF56800FEA74C /* Base64.m */,
+				9928F3081E4BF56800FEA74C /* KPromptBox.h */,
+				9928F3091E4BF56800FEA74C /* KPromptBox.m */,
+				9928F30A1E4BF56800FEA74C /* LXAlertView.h */,
+				9928F30B1E4BF56800FEA74C /* LXAlertView.m */,
+				9928F30C1E4BF56800FEA74C /* UILabel+LXAdd.h */,
+				9928F30D1E4BF56800FEA74C /* UILabel+LXAdd.m */,
+				9928F3031E4BF1EC00FEA74C /* Public.h */,
+				9928F3041E4BF1EC00FEA74C /* Public.m */,
+				9928F2CB1E4BF03F00FEA74C /* IQKeyboardManager */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		9928F2CB1E4BF03F00FEA74C /* IQKeyboardManager */ = {
+			isa = PBXGroup;
+			children = (
+				9928F2CC1E4BF03F00FEA74C /* IQKeyBoardManager */,
+				9928F2F01E4BF03F00FEA74C /* LICENSE.md */,
+				9928F2F11E4BF03F00FEA74C /* README.md */,
+			);
+			name = IQKeyboardManager;
+			path = Tools/IQKeyboardManager;
+			sourceTree = "<group>";
+		};
+		9928F2CC1E4BF03F00FEA74C /* IQKeyBoardManager */ = {
+			isa = PBXGroup;
+			children = (
+				9928F2CD1E4BF03F00FEA74C /* Categories */,
+				9928F2DA1E4BF03F00FEA74C /* Constants */,
+				9928F2DD1E4BF03F00FEA74C /* IQKeyboardManager.h */,
+				9928F2DE1E4BF03F00FEA74C /* IQKeyboardManager.m */,
+				9928F2DF1E4BF03F00FEA74C /* IQKeyboardReturnKeyHandler.h */,
+				9928F2E01E4BF03F00FEA74C /* IQKeyboardReturnKeyHandler.m */,
+				9928F2E11E4BF03F00FEA74C /* IQTextView */,
+				9928F2E41E4BF03F00FEA74C /* IQToolbar */,
+				9928F2ED1E4BF03F00FEA74C /* KeyboardManager.h */,
+				9928F2EE1E4BF03F00FEA74C /* Resources */,
+			);
+			path = IQKeyBoardManager;
+			sourceTree = "<group>";
+		};
+		9928F2CD1E4BF03F00FEA74C /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				9928F2CE1E4BF03F00FEA74C /* IQNSArray+Sort.h */,
+				9928F2CF1E4BF03F00FEA74C /* IQNSArray+Sort.m */,
+				9928F2D01E4BF03F00FEA74C /* IQUIScrollView+Additions.h */,
+				9928F2D11E4BF03F00FEA74C /* IQUIScrollView+Additions.m */,
+				9928F2D21E4BF03F00FEA74C /* IQUITextFieldView+Additions.h */,
+				9928F2D31E4BF03F00FEA74C /* IQUITextFieldView+Additions.m */,
+				9928F2D41E4BF03F00FEA74C /* IQUIView+Hierarchy.h */,
+				9928F2D51E4BF03F00FEA74C /* IQUIView+Hierarchy.m */,
+				9928F2D61E4BF03F00FEA74C /* IQUIViewController+Additions.h */,
+				9928F2D71E4BF03F00FEA74C /* IQUIViewController+Additions.m */,
+				9928F2D81E4BF03F00FEA74C /* IQUIWindow+Hierarchy.h */,
+				9928F2D91E4BF03F00FEA74C /* IQUIWindow+Hierarchy.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		9928F2DA1E4BF03F00FEA74C /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				9928F2DB1E4BF03F00FEA74C /* IQKeyboardManagerConstants.h */,
+				9928F2DC1E4BF03F00FEA74C /* IQKeyboardManagerConstantsInternal.h */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		9928F2E11E4BF03F00FEA74C /* IQTextView */ = {
+			isa = PBXGroup;
+			children = (
+				9928F2E21E4BF03F00FEA74C /* IQTextView.h */,
+				9928F2E31E4BF03F00FEA74C /* IQTextView.m */,
+			);
+			path = IQTextView;
+			sourceTree = "<group>";
+		};
+		9928F2E41E4BF03F00FEA74C /* IQToolbar */ = {
+			isa = PBXGroup;
+			children = (
+				9928F2E51E4BF03F00FEA74C /* IQBarButtonItem.h */,
+				9928F2E61E4BF03F00FEA74C /* IQBarButtonItem.m */,
+				9928F2E71E4BF03F00FEA74C /* IQTitleBarButtonItem.h */,
+				9928F2E81E4BF03F00FEA74C /* IQTitleBarButtonItem.m */,
+				9928F2E91E4BF03F00FEA74C /* IQToolbar.h */,
+				9928F2EA1E4BF03F00FEA74C /* IQToolbar.m */,
+				9928F2EB1E4BF03F00FEA74C /* IQUIView+IQKeyboardToolbar.h */,
+				9928F2EC1E4BF03F00FEA74C /* IQUIView+IQKeyboardToolbar.m */,
+			);
+			path = IQToolbar;
+			sourceTree = "<group>";
+		};
+		9928F2EE1E4BF03F00FEA74C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9928F2EF1E4BF03F00FEA74C /* IQKeyboardManager.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9928F3151E4BFAE400FEA74C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				99E1C5E31E4D66E5009D354E /* Wall_Luxshare-ICT_OL.png */,
+				99E1C5C51E4D5FF4009D354E /* cangkubeiliao_focus.png */,
+				99E1C5C61E4D5FF4009D354E /* cangkubeiliao.png */,
+				99E1C5C71E4D5FF4009D354E /* chengpinruku_focus.png */,
+				99E1C5C81E4D5FF4009D354E /* chengpinruku.png */,
+				99E1C5C91E4D5FF4009D354E /* enter_focus.png */,
+				99E1C5CA1E4D5FF4009D354E /* enter_normal.png */,
+				99E1C5CB1E4D5FF4009D354E /* luxshare_logo.png */,
+				99E1C5CC1E4D5FF4009D354E /* password.png */,
+				99E1C5CD1E4D5FF4009D354E /* pinzhibaobiao_focus.png */,
+				99E1C5CE1E4D5FF4009D354E /* pinzhibaobiao.png */,
+				99E1C5CF1E4D5FF4009D354E /* QCjianyan_focus.png */,
+				99E1C5D01E4D5FF4009D354E /* QCjianyan.png */,
+				99E1C5D11E4D5FF4009D354E /* songliao_focus.png */,
+				99E1C5D21E4D5FF4009D354E /* songliao.png */,
+				99E1C5D31E4D5FF4009D354E /* user.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		9928F3161E4C035A00FEA74C /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				9928F3171E4C035A00FEA74C /* jpush-ios-2.2.0.a */,
+				9928F3181E4C035A00FEA74C /* JPUSHService.h */,
+			);
+			name = Lib;
+			path = Tools/Lib;
+			sourceTree = "<group>";
+		};
+		9928F3311E4C427C00FEA74C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				99E1C58C1E4D44D9009D354E /* ShowViewController.h */,
+				99E1C58D1E4D44D9009D354E /* ShowViewController.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		99E1C58F1E4D45AF009D354E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				99E1C5901E4D45E5009D354E /* MainModel.h */,
+				99E1C5911E4D45E5009D354E /* MainModel.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9928F2A11E4BEF1700FEA74C /* LuxShareApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9928F2BE1E4BEF1800FEA74C /* Build configuration list for PBXNativeTarget "LuxShareApp" */;
+			buildPhases = (
+				73BEF50F47D90AD21B92D504 /* [CP] Check Pods Manifest.lock */,
+				9928F29E1E4BEF1700FEA74C /* Sources */,
+				9928F29F1E4BEF1700FEA74C /* Frameworks */,
+				9928F2A01E4BEF1700FEA74C /* Resources */,
+				19E5CFDA05D23A69A4EAF636 /* [CP] Embed Pods Frameworks */,
+				C08ECA935093816114C176C5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LuxShareApp;
+			productName = LuxShareApp;
+			productReference = 9928F2A21E4BEF1700FEA74C /* LuxShareApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9928F2B41E4BEF1800FEA74C /* LuxShareAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9928F2C11E4BEF1800FEA74C /* Build configuration list for PBXNativeTarget "LuxShareAppUITests" */;
+			buildPhases = (
+				9928F2B11E4BEF1800FEA74C /* Sources */,
+				9928F2B21E4BEF1800FEA74C /* Frameworks */,
+				9928F2B31E4BEF1800FEA74C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9928F2B71E4BEF1800FEA74C /* PBXTargetDependency */,
+			);
+			name = LuxShareAppUITests;
+			productName = LuxShareAppUITests;
+			productReference = 9928F2B51E4BEF1800FEA74C /* LuxShareAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9928F29A1E4BEF1700FEA74C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Luxshare;
+				TargetAttributes = {
+					9928F2A11E4BEF1700FEA74C = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = XTWEYNM44Z;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					9928F2B41E4BEF1800FEA74C = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = XTWEYNM44Z;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9928F2A11E4BEF1700FEA74C;
+					};
+				};
+			};
+			buildConfigurationList = 9928F29D1E4BEF1700FEA74C /* Build configuration list for PBXProject "LuxShareApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9928F2991E4BEF1700FEA74C;
+			productRefGroup = 9928F2A31E4BEF1700FEA74C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9928F2A11E4BEF1700FEA74C /* LuxShareApp */,
+				9928F2B41E4BEF1800FEA74C /* LuxShareAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9928F2A01E4BEF1700FEA74C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99E1C5E01E4D5FF4009D354E /* songliao_focus.png in Resources */,
+				99E1C5DA1E4D5FF4009D354E /* luxshare_logo.png in Resources */,
+				99E1C5E21E4D5FF4009D354E /* user.png in Resources */,
+				99E1C5D51E4D5FF4009D354E /* cangkubeiliao.png in Resources */,
+				99E1C5DD1E4D5FF4009D354E /* pinzhibaobiao.png in Resources */,
+				9928F2AC1E4BEF1700FEA74C /* Assets.xcassets in Resources */,
+				99E1C5E41E4D66E5009D354E /* Wall_Luxshare-ICT_OL.png in Resources */,
+				9928F2AF1E4BEF1700FEA74C /* LaunchScreen.storyboard in Resources */,
+				9928F2FF1E4BF03F00FEA74C /* IQKeyboardManager.bundle in Resources */,
+				99E1C5D41E4D5FF4009D354E /* cangkubeiliao_focus.png in Resources */,
+				99E1C5D71E4D5FF4009D354E /* chengpinruku.png in Resources */,
+				99E1C5DB1E4D5FF4009D354E /* password.png in Resources */,
+				99E1C5DC1E4D5FF4009D354E /* pinzhibaobiao_focus.png in Resources */,
+				99E1C5D91E4D5FF4009D354E /* enter_normal.png in Resources */,
+				99E1C5DF1E4D5FF4009D354E /* QCjianyan.png in Resources */,
+				99E1C5D61E4D5FF4009D354E /* chengpinruku_focus.png in Resources */,
+				99E1C5D81E4D5FF4009D354E /* enter_focus.png in Resources */,
+				99E1C5DE1E4D5FF4009D354E /* QCjianyan_focus.png in Resources */,
+				99E1C5E11E4D5FF4009D354E /* songliao.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9928F2B31E4BEF1800FEA74C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		19E5CFDA05D23A69A4EAF636 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LuxShareApp/Pods-LuxShareApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73BEF50F47D90AD21B92D504 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C08ECA935093816114C176C5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LuxShareApp/Pods-LuxShareApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9928F29E1E4BEF1700FEA74C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9928F3101E4BF56800FEA74C /* LXAlertView.m in Sources */,
+				9928F2FA1E4BF03F00FEA74C /* IQTextView.m in Sources */,
+				9928F2AA1E4BEF1700FEA74C /* AppDelegate.m in Sources */,
+				9928F2F91E4BF03F00FEA74C /* IQKeyboardReturnKeyHandler.m in Sources */,
+				9928F2FD1E4BF03F00FEA74C /* IQToolbar.m in Sources */,
+				9928F2F31E4BF03F00FEA74C /* IQUIScrollView+Additions.m in Sources */,
+				9928F2A71E4BEF1700FEA74C /* main.m in Sources */,
+				9928F2C61E4BEF4A00FEA74C /* LoginViewController.m in Sources */,
+				9928F3111E4BF56800FEA74C /* UILabel+LXAdd.m in Sources */,
+				9928F30E1E4BF56800FEA74C /* Base64.m in Sources */,
+				9928F2F81E4BF03F00FEA74C /* IQKeyboardManager.m in Sources */,
+				99E1C58E1E4D44D9009D354E /* ShowViewController.m in Sources */,
+				9928F2F51E4BF03F00FEA74C /* IQUIView+Hierarchy.m in Sources */,
+				9928F2FB1E4BF03F00FEA74C /* IQBarButtonItem.m in Sources */,
+				99E1C5921E4D45E5009D354E /* MainModel.m in Sources */,
+				9928F3001E4BF03F00FEA74C /* LICENSE.md in Sources */,
+				9928F2F41E4BF03F00FEA74C /* IQUITextFieldView+Additions.m in Sources */,
+				9928F2FC1E4BF03F00FEA74C /* IQTitleBarButtonItem.m in Sources */,
+				9928F3011E4BF03F00FEA74C /* README.md in Sources */,
+				9928F2C91E4BEF5500FEA74C /* MianViewController.m in Sources */,
+				9928F2F71E4BF03F00FEA74C /* IQUIWindow+Hierarchy.m in Sources */,
+				9928F30F1E4BF56800FEA74C /* KPromptBox.m in Sources */,
+				9928F2FE1E4BF03F00FEA74C /* IQUIView+IQKeyboardToolbar.m in Sources */,
+				9928F2F61E4BF03F00FEA74C /* IQUIViewController+Additions.m in Sources */,
+				9928F3051E4BF1EC00FEA74C /* Public.m in Sources */,
+				9928F3141E4BF5DC00FEA74C /* HttpRequest.m in Sources */,
+				9928F2F21E4BF03F00FEA74C /* IQNSArray+Sort.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9928F2B11E4BEF1800FEA74C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9928F2BA1E4BEF1800FEA74C /* LuxShareAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9928F2B71E4BEF1800FEA74C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9928F2A11E4BEF1700FEA74C /* LuxShareApp */;
+			targetProxy = 9928F2B61E4BEF1800FEA74C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9928F2AD1E4BEF1700FEA74C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9928F2AE1E4BEF1700FEA74C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9928F2BC1E4BEF1800FEA74C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9928F2BD1E4BEF1800FEA74C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9928F2BF1E4BEF1800FEA74C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A5BBC537ED0AAF807BD6BD5 /* Pods-LuxShareApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = LuxShareApp/LuxShareApp.entitlements;
+				DEVELOPMENT_TEAM = XTWEYNM44Z;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = LuxShareApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Tools/Lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.luxshare.luxShareApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9928F2C01E4BEF1800FEA74C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 812C7CA729F68E6EF75283EA /* Pods-LuxShareApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = LuxShareApp/LuxShareApp.entitlements;
+				DEVELOPMENT_TEAM = XTWEYNM44Z;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = LuxShareApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Tools/Lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.luxshare.luxShareApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9928F2C21E4BEF1800FEA74C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = XTWEYNM44Z;
+				INFOPLIST_FILE = LuxShareAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Luxshare.LuxShareAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LuxShareApp;
+			};
+			name = Debug;
+		};
+		9928F2C31E4BEF1800FEA74C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = XTWEYNM44Z;
+				INFOPLIST_FILE = LuxShareAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Luxshare.LuxShareAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LuxShareApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9928F29D1E4BEF1700FEA74C /* Build configuration list for PBXProject "LuxShareApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9928F2BC1E4BEF1800FEA74C /* Debug */,
+				9928F2BD1E4BEF1800FEA74C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9928F2BE1E4BEF1800FEA74C /* Build configuration list for PBXNativeTarget "LuxShareApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9928F2BF1E4BEF1800FEA74C /* Debug */,
+				9928F2C01E4BEF1800FEA74C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9928F2C11E4BEF1800FEA74C /* Build configuration list for PBXNativeTarget "LuxShareAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9928F2C21E4BEF1800FEA74C /* Debug */,
+				9928F2C31E4BEF1800FEA74C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9928F29A1E4BEF1700FEA74C /* Project object */;
+}
